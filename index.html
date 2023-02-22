@@ -57,7 +57,414 @@
 				height: 100%;
 				padding: 0;
 				margin: 0;
+				font-weight: 400;
+  			background: url('../img/background.png') top center/100% 100% no-repeat, #000000;
 			}
+
+			h1, h2 {
+				margin: 0;
+			}
+
+			img {
+				max-width: 100%;
+			}
+
+			/*glob*/
+
+			.list-resert {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+
+			.btn-resert {
+				-webkit-appearance: none;
+					-moz-appearance: none;
+								appearance: none;
+				margin: 0;
+				padding: 0;
+				border: none;
+				background-color: transparent;
+				cursor: pointer;
+			}
+
+			.flex {
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+			}
+
+			.container {
+				max-width: 100%;
+				margin: 0 auto;
+			}
+
+			:root {
+				--background: #000000;
+				--text: #ffffff;
+				--top-line: #FFC178;
+				--link: #FBD784;
+				--bg-button: #FFA343;
+				--footer-item-active: #FFD1A0;
+			}
+
+			.section-title {
+				margin: 0;
+				margin-bottom: 27px;
+				font-weight: 700;
+				font-size: 64px;
+				line-height: 87px;
+				color: var(--text);
+			}
+
+
+			.tag-line {
+				font-weight: 700;
+				font-size: 18px;
+				line-height: 25px;
+				letter-spacing: 6px;
+				text-transform: uppercase;
+				color: var(--link);
+			}
+
+			.read-more-link {
+				font-weight: 700;
+				font-size: 18px;
+				line-height: 25px;
+				color: var(--link);
+			}
+
+			.text {
+				font-weight: 400;
+				font-size: 18px;
+				line-height: 32px;
+				color: var(--text);
+			}
+
+			.menu-link {
+				font-weight: 600;
+				font-size: 18px;
+				line-height: 25px;
+				color: var(--text);
+			}
+
+
+			/*header*/
+
+			.header__container {
+				align-items: center;
+				justify-content: space-between;
+				padding: 64px 85px;
+			}
+
+			.header-logo {
+				margin-right: 15%;
+			}
+
+			.header__nav {
+				width: 35%;
+			}
+
+			.header__nav-list .list__item:not(:last-child) {
+				margin-right: 50px;
+			}
+
+			.header__search-text {
+				font-weight: 400;
+				font-size: 17px;
+				line-height: 23px;
+				color: var(--text);
+			}
+
+			/*section-top*/
+
+			.section-top__container {
+				align-items: flex-start;
+				justify-content: space-between;
+				padding: 130px 80px;
+				padding-bottom: 730px;
+			}
+
+			.social-top {
+				flex-direction: column;
+				align-items: flex-start;
+				justify-content: space-between;
+				width: 24%;
+				min-height: 250px;
+				padding-top: 75px;
+			}
+
+			.social__follow {
+				writing-mode: vertical-rl;
+				margin-left: 0;
+				margin-bottom: 20px;
+				font-weight: 600;
+				font-size: 18px;
+				line-height: 25px;
+				color: var(--text);
+			}
+
+			.social-top .social__item:not(:last-child) {
+				margin-bottom: 20px;
+			}
+
+			.hero {
+				width: 76%;
+			}
+
+			.hero__line {
+				margin-bottom: 35px;
+				color: var(--top-line);
+			}
+
+			.line-img {
+				margin-bottom: 5px;
+			}
+
+			.hero__title {
+				margin-bottom: 5px;
+				font-weight: 700;
+				font-size: 96px;
+				line-height: 100px;
+				color: var(--text);
+			}
+
+			.hero__main-title {
+				margin-bottom: 120px;
+				font-weight: 400;
+				font-size: 88px;
+				line-height: 100px;
+				letter-spacing: 3px;
+				color: var(--text);
+			}
+
+			.hero__link {
+				display: block;
+				margin: 0 30%;
+			}
+
+			/*section1*/
+
+			.section1__container {
+				height: 720px;
+				margin: 0 230px;
+				margin-bottom: 250px;
+				padding-left: 43%;
+				background: url(../img/bg-block1.jpg) left center/contain no-repeat;
+			}
+
+			.section1-line {
+				padding-top: 85px; 
+				margin-bottom: 27px;
+			}
+
+			.section1-title {
+				width: 65%;
+				margin-bottom: 27px;
+			}
+
+			.section1-text {
+				width: 90%;
+				margin-bottom: 27px;
+			}
+
+			/*section2*/
+
+			.section2__container {
+				height: 985px;
+				margin: 0 230px;
+				margin-bottom: 230px;
+				background: url(../img/bg-block2.jpg) center center/cover no-repeat;
+			}
+
+			.section2-arrows {
+				align-items: center;
+				justify-content: space-between;
+				padding: 455px 40px;
+				padding-bottom: 40px;
+			}
+
+			.section2-line {
+				margin: 0 40%;
+				margin-bottom: 27px;
+			}
+
+			.section2-title {
+				margin: 0 24%;
+				margin-bottom: 27px;
+				text-align: center;
+			}
+
+			.section2-text {
+				margin: 0 15%;
+				margin-bottom: 42px;
+				text-align: center;
+			}
+
+			.section2-link {
+				margin: 0 45.5%;
+				margin-bottom: 27px;
+			}
+
+			/*section3*/
+
+			.section3__container {
+				height: 720px;
+				margin: 0 230px;
+				margin-bottom: 250px;
+				padding-right: 43%;
+				padding-left: 35px;
+				background: url(../img/bg-block3.jpg) right center/contain no-repeat;
+			}
+
+			.section3-line {
+				padding: 105px 5px;
+				padding-bottom: 32px;
+			}
+
+
+			.section3-text {
+				margin-bottom: 27px;
+			}
+
+			/*footer*/
+
+			.footer__container {
+				padding: 0 230px;
+			}
+
+			.footer__top {
+				align-items: flex-start;
+				justify-content: space-between;
+				border-bottom: 1px solid var(--text);
+			}
+
+			.footer-logo {
+				width: 13%;
+				margin-right: 50%;
+			}
+
+			.footer-logo .header-logo-img {
+				width: 100%;
+				height: 70%;
+				margin-top: 15px;
+			}
+
+			.footer__top-text {
+				margin-top: 15px;
+				font-weight: 400;
+				font-size: 22px;
+				line-height: 29px;
+				color: var(--text);
+			}
+
+			.footer__top-btn {
+				margin-bottom: 55px;
+				padding: 22px 75px;
+				font-weight: 700;
+				font-size: 17px;
+				line-height: 22px;
+				color: var(--background);
+				background: var(--bg-button);
+				border-radius: 8px;
+			}
+
+			.footer__center {
+				margin-top: 55px;
+				margin-bottom: 100px;
+			}
+
+			.footer__form {
+				width: 45%;
+			}
+
+			.form-title {
+				width: 60%;
+				margin-bottom: 50px;
+				font-weight: 700;
+				font-size: 36px;
+				line-height: 49px;
+				color: var(--text);
+			}
+
+			.form-inp {
+				width: 400px;
+				height: 70px;
+				padding-right: 70px;
+				background: url(../img/Submit.svg) right center/contain no-repeat;
+				border: none;
+				border-bottom: 1px solid var(--text);
+			}
+
+			.footer__nav {
+				align-items: flex-start;
+				justify-content: space-between;
+				max-width: 55%;
+			}
+
+			.nav__col {
+				height: 250px;
+				padding-top: 20px;
+			}
+
+			.nav__col:not(:last-child) {
+				margin-right: 190px;
+			}
+
+			.list-item {
+				margin-bottom: 23px;
+				font-weight: 400;
+				font-size: 19px;
+				line-height: 22px;
+				color: var(--text);
+			}
+
+			.list-item:first-child {
+				color: var(--footer-item-active);
+			}
+
+			.list-item:last-child {
+				margin-bottom: 0;
+			}
+
+			.footer__links {
+				align-items: center;
+				justify-content: space-between;
+				margin-bottom: 156px;
+			}
+
+			.terms,
+			.policy {
+				font-weight: 400;
+				font-size: 15px;
+				line-height: 20px;
+				color: var(--text);
+			}
+
+			.terms {
+				margin-left: 50px;
+				margin-right: 50px;
+			}
+
+			.policy {
+				margin-right: 60%;
+			}
+
+			.footer__links-item {
+				width: 30px;
+				height: 30px;
+				margin-right: 35px;
+			}
+
+			.footer__down {
+				margin-bottom: 118px;
+				text-align: center;
+				font-weight: 600;
+				font-size: 18px;
+				line-height: 32px;
+				color: var(--text);
+			}
+
 		</style>
 		<div class="maketforfigma">
 			<a href="https://t.me/s/FigmaToHTML" target="_blank">
@@ -76,7 +483,272 @@
 		<!-- Конец -->
 
 		<div class="main">
-			В данном блоке размещается верстка
+			<header class="header">
+				<container class="header__container flex">
+					<a href="#" class="header-logo">
+						<picture>
+							<img src="img/Logo.svg" class="header-logo-img" alt="logo">
+						</picture>
+					</a>
+					<nav class="header__nav">
+						<ul class="list list-resert header__nav-list flex">
+							<li class="list__item menu-link">
+								Information
+							</li>
+							<li class="list__item menu-link">
+								About us
+							</li>
+							<li class="list__item menu-link">
+								Culture
+							</li>
+						</ul>
+					</nav>
+					<button class="btn-resert header__search">
+						<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M15.564 16.3392L10.8015 11.5759C8.68288 13.0821 5.76352 12.7136 4.08555 10.7283C2.40758 8.74294 2.53079 5.80301 4.36899 3.96502C6.2067 2.12622 9.14693 2.00248 11.1326 3.68036C13.1184 5.35825 13.487 8.27789 11.9807 10.3967L16.7432 15.16L15.5648 16.3384L15.564 16.3392ZM7.90399 4.16667C6.32374 4.16632 4.9604 5.27558 4.63938 6.82288C4.31837 8.37018 5.12791 9.93024 6.57788 10.5585C8.02786 11.1869 9.71974 10.7107 10.6292 9.41839C11.5386 8.12608 11.4157 6.37278 10.3348 5.22002L10.839 5.72002L10.2707 5.15335L10.2607 5.14335C9.63714 4.516 8.78848 4.16429 7.90399 4.16667Z" fill="white"/>
+						</svg>
+						<span class="header__search-text">
+							Search
+						</span>
+					</button>
+				</container>
+			</header>
+			<main>
+				<section class="section-top">
+					<div class="section-top__container flex">
+						<div class="social social-top flex">
+							<p class="social__follow">
+								Follow&nbsp;us
+							</p>
+							<svg class="social__item" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M7.8 2.00003H16.2C19.4032 2.00003 22 4.59678 22 7.80003V16.2C22 19.4033 19.4032 22 16.2 22H7.8C4.59675 22 2 19.4033 2 16.2V7.80003C2 4.59678 4.59675 2.00003 7.8 2.00003ZM7.6 4.00001C5.61177 4.00001 4 5.61179 4 7.60001V16.4C4 18.3882 5.61177 20 7.6 20H16.4C18.3882 20 20 18.3882 20 16.4V7.60001C20 5.61179 18.3882 4.00001 16.4 4.00001H7.6ZM17.25 5.50001C17.9404 5.50001 18.5 6.05966 18.5 6.75001C18.5 7.44037 17.9404 8.00001 17.25 8.00001C16.5596 8.00001 16 7.44037 16 6.75001C16 6.05966 16.5596 5.50001 17.25 5.50001ZM12 7.00001C14.7614 7.00001 17 9.23859 17 12C17 14.7614 14.7614 17 12 17C9.23857 17 7 14.7614 7 12C7 9.23859 9.23857 7.00001 12 7.00001ZM12 9.00001C10.3431 9.00001 9 10.3432 9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3432 13.6569 9.00001 12 9.00001Z" fill="white"/>
+							</svg>
+							<svg class="social__item" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M22.9184 6.01238C22.1488 6.35373 21.3216 6.58442 20.4536 6.68815C21.3395 6.15701 22.0201 5.31598 22.3405 4.31378C21.5112 4.80564 20.5928 5.16278 19.6152 5.3552C18.8324 4.52112 17.7171 4 16.4827 4C14.1126 4 12.1909 5.92147 12.1909 8.29155C12.1909 8.6279 12.2289 8.95546 12.3021 9.2696C8.73532 9.0906 5.57298 7.38203 3.45632 4.78551C3.08688 5.41935 2.87524 6.15656 2.87524 6.94309C2.87524 8.43204 3.63287 9.74563 4.78446 10.5153C4.08102 10.4929 3.41919 10.2999 2.84062 9.97846C2.84021 9.99639 2.84021 10.0143 2.84021 10.0324C2.84021 12.1118 4.31956 13.8463 6.28282 14.2406C5.92272 14.3387 5.54357 14.3912 5.15217 14.3912C4.87563 14.3912 4.60678 14.3642 4.34469 14.3142C4.89084 16.0191 6.47576 17.26 8.35377 17.2945C6.88499 18.4457 5.0345 19.1318 3.02376 19.1318C2.67735 19.1318 2.33574 19.1114 2 19.0717C3.89926 20.2894 6.15514 21 8.57873 21C16.4726 21 20.7894 14.4605 20.7894 8.78918C20.7894 8.60314 20.7852 8.41805 20.7769 8.23395C21.6155 7.62886 22.3431 6.87302 22.9184 6.01238Z" fill="white"/>
+							</svg>
+							<svg class="social__item" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0_24_12)">
+								<path d="M14.9917 5.81896H17V2.16196C16.6535 2.11212 15.462 2 14.0742 2C11.1787 2 9.19523 3.90421 9.19523 7.40404V10.625H6V14.7132H9.19523V25H13.1127V14.7142H16.1787L16.6654 10.626H13.1118V7.80942C13.1127 6.62779 13.417 5.81896 14.9917 5.81896Z" fill="white"/>
+								</g>
+								<defs>
+								<clipPath id="clip0_24_12">
+								<rect width="24" height="24" fill="white"/>
+								</clipPath>
+								</defs>
+							</svg>
+						</div>
+						<div class="hero">
+							<div class="tag-line hero__line">
+								<svg class="line-img" width="72" height="2" viewBox="0 0 72 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<rect width="72" height="2" fill="#FFC178"/>
+								</svg>
+								explore the Nature Beauty
+							</div>
+							<h2 class="hero__title">
+								Discover
+							</h2>
+							<h1 class="hero__main-title">
+								Wonderful Indonesia
+							</h1>
+							<a href="#section1" class="hero__link menu-link">
+								Scroll down
+								<svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M16 16L14.59 14.59L9 20.17V0H7V20.17L1.42 14.58L0 16L8 24L16 16Z" fill="white"/>
+								</svg>
+							</a>
+						</div>
+					</div>
+				</section>
+				<section id="section1" class="section1">
+					<div class="section1__container">
+						<div class="tag-line section1-line">
+							<svg class="line-img" width="72" height="2" viewBox="0 0 72 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<rect width="72" height="2" fill="#FFC178"/>
+							</svg>
+							EAST nUSA TENGGARA
+						</div>
+						<h2 class="section-title section1-title">
+							Have you enjoyed your holiday?
+						</h2>
+						<p class="text section1-text">
+							You will be&nbsp;amazed if&nbsp;you take part in&nbsp;this sailing Komodo island tour package. So&nbsp;it&nbsp;is&nbsp;also mandatory for you, besides enjoying Komodo tourism on&nbsp;Komodo Island, you also have to&nbsp;taste the marine tourism. The beautiful waters of&nbsp;Komodo will make you meet many travelers from other countries.
+						</p>
+						<a href="#" class="read-more-link">
+							read more
+							<svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M16.5 -6.99382e-07L15.09 1.41L20.67 7L0.5 7L0.5 9L20.67 9L15.08 14.58L16.5 16L24.5 8L16.5 -6.99382e-07Z" fill="#FBD784"/>
+							</svg>
+						</a>
+					</div>
+				</div>
+				</section>
+				<section class="section2">
+					<div class="section2__container">
+						<div class="section2-arrows flex">
+							<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M19.4187 4.3938L8.8125 15L19.4187 25.6063L21.1875 23.8388L12.3475 15L21.1875 6.1613L19.4187 4.3938Z" fill="white"/>
+							</svg>
+							<svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M2.58125 21.6062L13.1875 11L2.58125 0.3937L0.8125 2.1612L9.6525 11L0.8125 19.8387L2.58125 21.6062Z" fill="white"/>
+								</svg>
+						</div>
+						<div class="tag-line section2-line">
+							<svg class="line-img" width="72" height="2" viewBox="0 0 72 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<rect width="72" height="2" fill="#FFC178"/>
+							</svg>
+							Bromo
+							<svg class="line-img" width="72" height="2" viewBox="0 0 72 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<rect width="72" height="2" fill="#FFC178"/>
+							</svg>
+						</div>
+						<h2 class="section-title section2-title">
+							Steady your steps, we&nbsp;will climb together!
+						</h2>
+						<p class="text section2-text">
+							Enjoying the vast expanse of&nbsp;the sea of ​​​​sand, witnessing the splendor of&nbsp;Mount Semeru that soars into the sky, and gazing at&nbsp;the beauty of&nbsp;the sun moving out of&nbsp;its bed or&nbsp;otherwise enjoying the dim twilight from the Bromo ridge is&nbsp;an&nbsp;unforgettable experience when visiting Bromo.
+						</p>
+						<a href="#" class="read-more-link section2-link">
+							read more
+							<svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M16.5 -6.99382e-07L15.09 1.41L20.67 7L0.5 7L0.5 9L20.67 9L15.08 14.58L16.5 16L24.5 8L16.5 -6.99382e-07Z" fill="#FBD784"/>
+							</svg>
+						</a>
+					</div>
+				</section>
+				<section class="section3">
+				<div class="section3__container">
+						<div class="tag-line section3-line">
+							<svg class="line-img" width="72" height="2" viewBox="0 0 72 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<rect width="72" height="2" fill="#FFC178"/>
+							</svg>
+							INDONESIAN CULTURE
+						</div>
+						<h2 class="section-title section3-title">
+							Our culture here is&nbsp;very friendly to&nbsp;people
+						</h2>
+						<p class="text section3-text">
+							known for his politeness, manners and gentleness. This becomes a&nbsp;characteristic when they mingle with other tribes and become basic traits that are passed down by&nbsp;their ancestors.
+						</p>
+						<a href="#" class="read-more-link section3-link">
+							read more
+							<svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M16.5 -6.99382e-07L15.09 1.41L20.67 7L0.5 7L0.5 9L20.67 9L15.08 14.58L16.5 16L24.5 8L16.5 -6.99382e-07Z" fill="#FBD784"/>
+							</svg>
+						</a>
+					</div>
+				</section>
+			</main>
+			<footer class="footer">
+				<div class="footer__container">
+					<div class="footer__top flex">
+						<a href="#" class="footer-logo">
+							<picture>
+								<img src="img/Logo.svg" class="header-logo-img" alt="logo">
+							</picture>
+						</a>
+						<p class="footer__top-text">
+							Ready to&nbsp;explore?
+						</p>
+						<button class="btn-resert footer__top-btn">
+							Get started
+						</button>
+					</div>
+					<div class="footer__center flex">
+						<form id="callback-form" method="post" enctype="application/x-www-form-urlencoded" action="#" class="footer__form">
+							<p class="form-title">
+								Let&rsquo;s go&nbsp;on&nbsp;vacation, Make your day
+							</p>
+							<label for="callback-form">
+								<input class="form-inp"
+									type='email'
+									name="email" required
+									placeholder="Email address"
+									id="email-inp">
+							</label>
+						</form>
+						<div class="nav footer__nav flex">
+							<div class="nav__col">
+								<ul class="list list-resert nav__col-list">
+									<li class="list-item">
+										Services
+									</li>
+									<li class="list-item">
+										Email Marketing
+									</li>
+									<li class="list-item">
+										Campaigns
+									</li>
+									<li class="list-item">
+										Branding
+									</li>
+									<li class="list-item">
+										Offline
+									</li>
+								</ul>
+							</div>
+							<div class="nav__col">
+								<ul class="list list-resert nav__col-list">
+									<li class="list-item">
+										About 
+									</li>
+									<li class="list-item">
+										Our Story
+									</li>
+									<li class="list-item">
+										Benefits
+									</li>
+									<li class="list-item">
+										Team
+									</li>
+									<li class="list-item">
+										Careers
+									</li>
+								</ul>
+							</div>
+							<div class="nav__col">
+								<ul class="list list-resert nav__col-list">
+									<li class="list-item">
+										Help
+									</li>
+									<li class="list-item">
+										FAQs
+									</li>
+									<li class="list-item">
+										Contact Us
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="footer__links flex">
+						<a href="#" class="terms">
+							Terms &amp;&nbsp;Conditions
+						</a>
+						<a href="#" class="policy">
+							Privacy Policy
+						</a>
+						<svg class="footer__links-item" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g clip-path="url(#clip0_24_12)">
+							<path d="M14.9917 5.81896H17V2.16196C16.6535 2.11212 15.462 2 14.0742 2C11.1787 2 9.19523 3.90421 9.19523 7.40404V10.625H6V14.7132H9.19523V25H13.1127V14.7142H16.1787L16.6654 10.626H13.1118V7.80942C13.1127 6.62779 13.417 5.81896 14.9917 5.81896Z" fill="white"/>
+							</g>
+							<defs>
+							<clipPath id="clip0_24_12">
+							<rect width="24" height="24" fill="white"/>
+							</clipPath>
+							</defs>
+						</svg>
+						<svg class="footer__links-item" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M22.9184 6.01238C22.1488 6.35373 21.3216 6.58442 20.4536 6.68815C21.3395 6.15701 22.0201 5.31598 22.3405 4.31378C21.5112 4.80564 20.5928 5.16278 19.6152 5.3552C18.8324 4.52112 17.7171 4 16.4827 4C14.1126 4 12.1909 5.92147 12.1909 8.29155C12.1909 8.6279 12.2289 8.95546 12.3021 9.2696C8.73532 9.0906 5.57298 7.38203 3.45632 4.78551C3.08688 5.41935 2.87524 6.15656 2.87524 6.94309C2.87524 8.43204 3.63287 9.74563 4.78446 10.5153C4.08102 10.4929 3.41919 10.2999 2.84062 9.97846C2.84021 9.99639 2.84021 10.0143 2.84021 10.0324C2.84021 12.1118 4.31956 13.8463 6.28282 14.2406C5.92272 14.3387 5.54357 14.3912 5.15217 14.3912C4.87563 14.3912 4.60678 14.3642 4.34469 14.3142C4.89084 16.0191 6.47576 17.26 8.35377 17.2945C6.88499 18.4457 5.0345 19.1318 3.02376 19.1318C2.67735 19.1318 2.33574 19.1114 2 19.0717C3.89926 20.2894 6.15514 21 8.57873 21C16.4726 21 20.7894 14.4605 20.7894 8.78918C20.7894 8.60314 20.7852 8.41805 20.7769 8.23395C21.6155 7.62886 22.3431 6.87302 22.9184 6.01238Z" fill="white"/>
+						</svg>
+						<svg class="footer__links-item" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M7.8 2.00003H16.2C19.4032 2.00003 22 4.59678 22 7.80003V16.2C22 19.4033 19.4032 22 16.2 22H7.8C4.59675 22 2 19.4033 2 16.2V7.80003C2 4.59678 4.59675 2.00003 7.8 2.00003ZM7.6 4.00001C5.61177 4.00001 4 5.61179 4 7.60001V16.4C4 18.3882 5.61177 20 7.6 20H16.4C18.3882 20 20 18.3882 20 16.4V7.60001C20 5.61179 18.3882 4.00001 16.4 4.00001H7.6ZM17.25 5.50001C17.9404 5.50001 18.5 6.05966 18.5 6.75001C18.5 7.44037 17.9404 8.00001 17.25 8.00001C16.5596 8.00001 16 7.44037 16 6.75001C16 6.05966 16.5596 5.50001 17.25 5.50001ZM12 7.00001C14.7614 7.00001 17 9.23859 17 12C17 14.7614 14.7614 17 12 17C9.23857 17 7 14.7614 7 12C7 9.23859 9.23857 7.00001 12 7.00001ZM12 9.00001C10.3431 9.00001 9 10.3432 9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3432 13.6569 9.00001 12 9.00001Z" fill="white"/>
+						</svg>
+					</div>
+					<div class="footer__down">
+						Copyright 2021&nbsp;QWERy
+					</div>
+				</div>
+			</footer>
 		</div>
 </body>
 </html>
